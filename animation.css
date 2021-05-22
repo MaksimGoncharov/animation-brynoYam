@@ -1,0 +1,42 @@
+.fly{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    background: royalblue;
+    
+}
+.iii{
+    animation: rrr 5s infinite;
+}
+
+
+
+@keyframes rrr{
+    0%{ 
+        transform: none;
+        top:0;
+        left:0;
+    }
+30% {
+    top: 101px;
+    left: 150px;
+    transform: rotate(180deg);
+
+}
+60%{
+    top: 50px;
+    left: 150px;
+    width: 10px;
+    height: 10px;
+    background: red;
+    border: 5px solid green;
+}
+100%{
+    top: 0;
+    left: 0;
+    transform: rotate(540deg);
+}
+}
